@@ -49,7 +49,7 @@
       "order": "Order 1: Cheeseburger",
       "step": "Step 2: Assemble Item",
       "item": "Cooked Meat Patty",
-      "inventorytype": "Work In Process",
+      "inventorytype": "Waiting on Step 1 to be Completed",
       "quantity": 10,
       "available": 0
     },
@@ -76,7 +76,7 @@
       "order": "Order 1: Cheeseburger",
       "step": "Step 3: Package Item",
       "item": "Cheeseburger",
-      "inventorytype": "Finished Goods",
+      "inventorytype": "Waiting on Step 2 to be Completed",
       "quantity": 20,
       "available": 0
     },
@@ -139,7 +139,7 @@
       "order": "Order 2: Burrito",
       "step": "Step 2: Assemble Item",
       "item": "Cooked Taco Meat",
-      "inventorytype": "Work In Process",
+      "inventorytype": "Waiting on Step 1 to be Completed",
       "quantity": 30,
       "available": 0
     },
@@ -166,7 +166,7 @@
       "order": "Order 2: Burrito",
       "step": "Step 3: Package Item",
       "item": "Burrito",
-      "inventorytype": "Finished Goods",
+      "inventorytype": "Waiting on Step 2 to be Completed",
       "quantity": 120,
       "available": 0
     },
@@ -220,7 +220,7 @@
       "order": "Order 3: Double Bacon Cheeseburger",
       "step": "Step 2: Assemble Item",
       "item": "Cooked Meat Patty",
-      "inventorytype": "Work In Process",
+      "inventorytype": "Waiting on Step 1 to be Completed",
       "quantity": 20,
       "available": 0
     },
@@ -256,7 +256,7 @@
       "order": "Order 3: Double Bacon Cheeseburger",
       "step": "Step 3: Package Item",
       "item": "Cheeseburger",
-      "inventorytype": "Finished Goods",
+      "inventorytype": "Waiting on Step 2 to be Completed",
       "quantity": 20,
       "available": 0
     },
@@ -292,7 +292,7 @@
         "order": "Order 4: Burrito",
         "step": "Step 2: Assemble Item",
         "item": "Cooked Taco Meat",
-        "inventorytype": "Work In Process",
+        "inventorytype": "Waiting on Step 1 to be Completed",
         "quantity": 30,
         "available": 0
       },
@@ -319,7 +319,7 @@
         "order": "Order 4: Burrito",
         "step": "Step 3: Package Item",
         "item": "Burrito",
-        "inventorytype": "Finished Goods",
+        "inventorytype": "Waiting on Step 2 to be Completed",
         "quantity": 120,
         "available": 0
       },
@@ -346,7 +346,7 @@
       "order": "Order 5: Cheeseburger",
       "step": "Step 3: Package Item",
       "item": "Cheeseburger",
-      "inventorytype": "Finished Goods",
+      "inventorytype": "Waiting on Step 2 to be Completed",
       "quantity": 20,
       "available": 0
     }      
