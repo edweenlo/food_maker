@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Maker</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="title">
+        Food Maker
+      </div>
+    </header>
+
+    <main>
+      <div class="column column-one">
+        <div class="inputs">
+          <label for="data">Paste JSON data here:</label>
+          <textarea
+            name="data"
+            id="json-data-input"
+            cols="50"
+            rows="20"
+          ></textarea>
+          <button id="parse-button" onclick="onDataParseHandler(this.event)">Parse Data</button>
+          <button id="download-to-excel-button" onclick="onExcelFileDownload(this.event)">Download Excel File</button>
+        </div>
+        <div>
+          <p id="fulfillable" class="summary-item">
+            <!--filled in with javascript-->
+          </p>
+          <p id="totalunfulfillable" class="summary-item">
+            <!--filled in with javascript-->
+          </p>
+        </div>
+      </div>
+      <div class="column column-two">
+        <table id="visualized-data">
+          <thead>
+            <tr>
+              <th data-f-bold="true">Date</th>
+              <th data-f-bold="true">Order</th>
+              <th data-f-bold="true">Step</th>
+              <th data-f-bold="true">Item</th>
+              <th data-f-bold="true">Inventory Type</th>
+              <th data-f-bold="true">Quantity</th>
+              <th data-f-bold="true">Available</th>
+            </tr>
+          </thead>
+          <tbody id="data-output">
+            <!--Populated from the javascript file-->
+          </tbody>
+        </table>
+      </div>
+    </main>
+    <script type="text/javascript" src="./tableToExcel.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,434 @@
+[
+    {
+      "date": "11/10/2022",
+      "order": "Order 1: Cheeseburger",
+      "step": "Step 1: Cook meat",
+      "item": "Raw Ground Meat",
+      "inventorytype": "Raw Materials",
+      "quantity": 25,
+      "available": 89
+    },
+    {
+      "date": "11/10/2022",
+      "order": "Order 1: Cheeseburger",
+      "step": "Step 1: Cook meat",
+      "item": "Salt",
+      "inventorytype": "Raw Materials",
+      "quantity": 120,
+      "available": 530
+    },
+    {
+      "date": "11/10/2022",
+      "order": "Order 1: Cheeseburger",
+      "step": "Step 1: Cook meat",
+      "item": "Butter",
+      "inventorytype": "Raw Materials",
+      "quantity": 30,
+      "available": 120
+    },
+    {
+      "date": "11/10/2022",
+      "order": "Order 1: Cheeseburger",
+      "step": "Step 2: Assemble Item",
+      "item": "Cheese",
+      "inventorytype": "Raw Materials",
+      "quantity": 50,
+      "available": 300
+    },
+    {
+      "date": "11/10/2022",
+      "order": "Order 1: Cheeseburger",
+      "step": "Step 2: Assemble Item",
+      "item": "Buns",
+      "inventorytype": "Raw Materials",
+      "quantity": 20,
+      "available": 100
+    },
+    {
+      "date": "11/10/2022",
+      "order": "Order 1: Cheeseburger",
+      "step": "Step 2: Assemble Item",
+      "item": "Cooked Meat Patty",
+      "inventorytype": "Work In Process",
+      "quantity": 10,
+      "available": 0
+    },
+    {
+      "date": "11/10/2022",
+      "order": "Order 1: Cheeseburger",
+      "step": "Step 3: Package Item",
+      "item": "Paper Wrapper",
+      "inventorytype": "Raw Materials",
+      "quantity": 15,
+      "available": 400
+    },
+    {
+      "date": "11/10/2022",
+      "order": "Order 1: Cheeseburger",
+      "step": "Step 3: Package Item",
+      "item": "Paper Bag",
+      "inventorytype": "Raw Materials",
+      "quantity": 5,
+      "available": 190
+    },
+    {
+      "date": "11/10/2022",
+      "order": "Order 1: Cheeseburger",
+      "step": "Step 3: Package Item",
+      "item": "Cheeseburger",
+      "inventorytype": "Finished Goods",
+      "quantity": 20,
+      "available": 0
+    },
+    {
+      "date": "11/20/2022",
+      "order": "Order 2: Burrito",
+      "step": "Step 1: Cook meat",
+      "item": "Raw Ground Meat",
+      "inventorytype": "Raw Materials",
+      "quantity": 25,
+      "available": 89
+    },
+    {
+      "date": "11/20/2022",
+      "order": "Order 2: Burrito",
+      "step": "Step 1: Cook meat",
+      "item": "Salt",
+      "inventorytype": "Raw Materials",
+      "quantity": 120,
+      "available": 530
+    },
+    {
+      "date": "11/20/2022",
+      "order": "Order 2: Burrito",
+      "step": "Step 1: Cook meat",
+      "item": "Butter",
+      "inventorytype": "Raw Materials",
+      "quantity": 30,
+      "available": 120
+    },
+    {
+      "date": "11/20/2022",
+      "order": "Order 2: Burrito",
+      "step": "Step 2: Assemble Item",
+      "item": "Cheese",
+      "inventorytype": "Raw Materials",
+      "quantity": 30,
+      "available": 300
+    },
+    {
+      "date": "11/20/2022",
+      "order": "Order 2: Burrito",
+      "step": "Step 2: Assemble Item",
+      "item": "Lettuce",
+      "inventorytype": "Raw Materials",
+      "quantity": 15,
+      "available": 600
+    },
+    {
+        "date": "11/20/2022",
+        "order": "Order 2: Burrito",
+        "step": "Step 2: Assemble Item",
+        "item": "Tortilla",
+        "inventorytype": "Raw Materials",
+        "quantity": 120,
+        "available": 530
+      },
+    {
+      "date": "11/20/2022",
+      "order": "Order 2: Burrito",
+      "step": "Step 2: Assemble Item",
+      "item": "Cooked Taco Meat",
+      "inventorytype": "Work In Process",
+      "quantity": 30,
+      "available": 0
+    },
+    {
+      "date": "11/20/2022",
+      "order": "Order 2: Burrito",
+      "step": "Step 3: Package Item",
+      "item": "Paper Wrapper",
+      "inventorytype": "Raw Materials",
+      "quantity": 15,
+      "available": 400
+    },
+    {
+      "date": "11/20/2022",
+      "order": "Order 2: Burrito",
+      "step": "Step 3: Package Item",
+      "item": "Paper Bag",
+      "inventorytype": "Raw Materials",
+      "quantity": 5,
+      "available": 190
+    },
+    {
+      "date":"11/20/2022",
+      "order": "Order 2: Burrito",
+      "step": "Step 3: Package Item",
+      "item": "Burrito",
+      "inventorytype": "Finished Goods",
+      "quantity": 120,
+      "available": 0
+    },
+    {
+      "date": "11/28/2022",
+      "order": "Order 3: Double Bacon Cheeseburger",
+      "step": "Step 1: Cook meat",
+      "item": "Raw Ground Meat",
+      "inventorytype": "Raw Materials",
+      "quantity": 25,
+      "available": 89
+    },
+    {
+      "date": "11/28/2022",
+      "order": "Order 3: Double Bacon Cheeseburger",
+      "step": "Step 1: Cook meat",
+      "item": "Salt",
+      "inventorytype": "Raw Materials",
+      "quantity": 120,
+      "available": 530
+    },
+    {
+      "date": "11/28/2022",
+      "order": "Order 3: Double Bacon Cheeseburger",
+      "step": "Step 1: Cook meat",
+      "item": "Butter",
+      "inventorytype": "Raw Materials",
+      "quantity": 30,
+      "available": 120
+    },
+    {
+      "date": "11/28/2022",
+      "order": "Order 3: Double Bacon Cheeseburger",
+      "step": "Step 2: Assemble Item",
+      "item": "Cheese",
+      "inventorytype": "Raw Materials",
+      "quantity": 50,
+      "available": 300
+    },
+    {
+      "date": "11/28/2022",
+      "order": "Order 3: Double Bacon Cheeseburger",
+      "step": "Step 2: Assemble Item",
+      "item": "Buns",
+      "inventorytype": "Raw Materials",
+      "quantity": 20,
+      "available": 100
+    },
+    {
+      "date": "11/28/2022",
+      "order": "Order 3: Double Bacon Cheeseburger",
+      "step": "Step 2: Assemble Item",
+      "item": "Cooked Meat Patty",
+      "inventorytype": "Work In Process",
+      "quantity": 20,
+      "available": 0
+    },
+    {
+        "date": "11/28/2022",
+        "order": "Order 3: Double Bacon Cheeseburger",
+        "step": "Step 2: Assemble Item",
+        "item": "Bacon",
+        "inventorytype": "Raw Materials",
+        "quantity": 40,
+        "available": 999
+    },
+    {
+      "date": "11/28/2022",
+      "order": "Order 3: Double Bacon Cheeseburger",
+      "step": "Step 3: Package Item",
+      "item": "Paper Wrapper",
+      "inventorytype": "Raw Materials",
+      "quantity": 15,
+      "available": 400
+    },
+    {
+      "date": "11/28/2022",
+      "order": "Order 3: Double Bacon Cheeseburger",
+      "step": "Step 3: Package Item",
+      "item": "Paper Bag",
+      "inventorytype": "Raw Materials",
+      "quantity": 5,
+      "available": 190
+    },
+    {
+      "date": "11/28/2022",
+      "order": "Order 3: Double Bacon Cheeseburger",
+      "step": "Step 3: Package Item",
+      "item": "Cheeseburger",
+      "inventorytype": "Finished Goods",
+      "quantity": 20,
+      "available": 0
+    },
+    {
+        "date": "12/03/2022",
+        "order": "Order 4: Burrito",
+        "step": "Step 1: Cook meat",
+        "item": "Raw Ground Meat",
+        "inventorytype": "Raw Materials",
+        "quantity": 25,
+        "available": 89
+      },
+      {
+        "date": "12/03/2022",
+        "order": "Order 4: Burrito",
+        "step": "Step 1: Cook meat",
+        "item": "Salt",
+        "inventorytype": "Raw Materials",
+        "quantity": 120,
+        "available": 530
+      },
+      {
+        "date": "12/03/2022",
+        "order": "Order 4: Burrito",
+        "step": "Step 1: Cook meat",
+        "item": "Butter",
+        "inventorytype": "Raw Materials",
+        "quantity": 30,
+        "available": 120
+      },
+      {
+        "date": "12/03/2022",
+        "order": "Order 4: Burrito",
+        "step": "Step 2: Assemble Item",
+        "item": "Cheese",
+        "inventorytype": "Raw Materials",
+        "quantity": 30,
+        "available": 300
+      },
+      {
+        "date": "12/03/2022",
+        "order": "Order 4: Burrito",
+        "step": "Step 2: Assemble Item",
+        "item": "Lettuce",
+        "inventorytype": "Raw Materials",
+        "quantity": 15,
+        "available": 600
+      },
+      {
+          "date": "12/03/2022",
+          "order": "Order 4: Burrito",
+          "step": "Step 2: Assemble Item",
+          "item": "Tortilla",
+          "inventorytype": "Raw Materials",
+          "quantity": 120,
+          "available": 530
+        },
+      {
+        "date": "12/03/2022",
+        "order": "Order 4: Burrito",
+        "step": "Step 2: Assemble Item",
+        "item": "Cooked Taco Meat",
+        "inventorytype": "Work In Process",
+        "quantity": 30,
+        "available": 0
+      },
+      {
+        "date": "12/03/2022",
+        "order": "Order 4: Burrito",
+        "step": "Step 3: Package Item",
+        "item": "Paper Wrapper",
+        "inventorytype": "Raw Materials",
+        "quantity": 15,
+        "available": 400
+      },
+      {
+        "date": "12/03/2022",
+        "order": "Order 4: Burrito",
+        "step": "Step 3: Package Item",
+        "item": "Paper Bag",
+        "inventorytype": "Raw Materials",
+        "quantity": 5,
+        "available": 190
+      },
+      {
+        "date": "12/03/2022",
+        "order": "Order 4: Burrito",
+        "step": "Step 3: Package Item",
+        "item": "Burrito",
+        "inventorytype": "Finished Goods",
+        "quantity": 120,
+        "available": 0
+      },
+    {
+      "date": "12/20/2022",
+      "order": "Order 5: Cheeseburger",
+      "step": "Step 1: Cook meat",
+      "item": "Raw Ground Meat",
+      "inventorytype": "Raw Materials",
+      "quantity": 25,
+      "available": 89
+    },
+    {
+      "date": "12/20/2022",
+      "order": "Order 5: Cheeseburger",
+      "step": "Step 1: Cook meat",
+      "item": "Salt",
+      "inventorytype": "Raw Materials",
+      "quantity": 120,
+      "available": 530
+    },
+    {
+      "date": "12/20/2022",
+      "order": "Order 5: Cheeseburger",
+      "step": "Step 1: Cook meat",
+      "item": "Butter",
+      "inventorytype": "Raw Materials",
+      "quantity": 30,
+      "available": 120
+    },
+    {
+      "date": "12/20/2022",
+      "order": "Order 5: Cheeseburger",
+      "step": "Step 2: Assemble Item",
+      "item": "Cheese",
+      "inventorytype": "Raw Materials",
+      "quantity": 50,
+      "available": 300
+    },
+    {
+      "date": "12/20/2022",
+      "order": "Order 5: Cheeseburger",
+      "step": "Step 2: Assemble Item",
+      "item": "Buns",
+      "inventorytype": "Raw Materials",
+      "quantity": 20,
+      "available": 100
+    },
+    {
+      "date": "12/20/2022",
+      "order": "Order 5: Cheeseburger",
+      "step": "Step 2: Assemble Item",
+      "item": "Cooked Meat Patty",
+      "inventorytype": "Work In Process",
+      "quantity": 10,
+      "available": 0
+    },
+    {
+      "date": "12/20/2022",
+      "order": "Order 5: Cheeseburger",
+      "step": "Step 3: Package Item",
+      "item": "Paper Wrapper",
+      "inventorytype": "Raw Materials",
+      "quantity": 15,
+      "available": 400
+    },
+    {
+      "date": "12/20/2022",
+      "order": "Order 5: Cheeseburger",
+      "step": "Step 3: Package Item",
+      "item": "Paper Bag",
+      "inventorytype": "Raw Materials",
+      "quantity": 5,
+      "available": 190
+    },
+    {
+      "date": "12/20/2022",
+      "order": "Order 5: Cheeseburger",
+      "step": "Step 3: Package Item",
+      "item": "Cheeseburger",
+      "inventorytype": "Finished Goods",
+      "quantity": 20,
+      "available": 0
+    }      
+  ]
