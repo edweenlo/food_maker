@@ -88,7 +88,7 @@ function onDataParseHandler() {
       }
 
 
-
+      /*
       temp.forEach((order) => {
         if (
           order.available === "NULL" ||
@@ -108,6 +108,7 @@ function onDataParseHandler() {
         modifiedOrders.push(order);
         
       });
+      */
       
 
     });
