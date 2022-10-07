@@ -43,7 +43,6 @@ function onDataParseHandler() {
         
       temp.forEach((order) => {
         
-        console.log(orders)
         if (
           order.available === "NULL" ||
           Number(order.quantity) > Number(order.available)
@@ -86,30 +85,6 @@ function onDataParseHandler() {
 
         });
       }
-
-
-      /*
-      temp.forEach((order) => {
-        if (
-          order.available === "NULL" ||
-          Number(order.quantity) > Number(order.available)
-        ) {
-          canFulfil = false;
-          order.status = "red";
-        }
-      });
-
-   
-      temp.forEach((order) => {
-        if (!order.status) {
-          order.status = canFulfil ? "green" : "none";
-        }
-
-        modifiedOrders.push(order);
-        
-      });
-      */
-      
 
     });
 
